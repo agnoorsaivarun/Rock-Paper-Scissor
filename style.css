@@ -1,0 +1,42 @@
+body{
+    background: url('/bg.jpg');
+    color: white;
+}
+h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.output,.choice,#play{
+    box-sizing: border-box;
+    margin: 1%;
+    padding:2%;
+}
+.game{
+    width: 50%;
+    margin: auto;
+    background: url('/bg2.jfif');
+}
+#play,#input{
+    width:100%;   
+    text-align: center;
+}
+
+button{
+    width:30%;
+    background-color: blue;
+    color: white;
+}
+#play:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+    color: blue;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color: maroon;
+    color: rgb(26, 128, 0);
+}

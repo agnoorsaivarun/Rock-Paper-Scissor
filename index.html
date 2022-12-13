@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+        <header><h1>Rock Paper Scissor</h1></header>
+        <div class="row">
+            <input type="number" id="input" value=“game-number”><br>
+            <button id="play" value=“play-game” onclick="gameStart()">Play</button>
+        </div>
+        <div class="row">
+            <button class="choice" id="rock" value="rock" onclick='gameFun("ROCK")'>ROCK</button>
+            <button class="choice" id="paper" value="paper" onclick='gameFun("PAPER")'>PAPER</button>
+            <button class="choice" id="scissor" value="scissors" onclick='gameFun("SCISSORS")'>SCISSORS</button>
+        </div>
+        <div class="row">
+           <button id="cc" class="output" disabled value="computer-choose">Computer's Choice</button>
+           <button id="rr" class="output" disabled value="round-result">Round's Result</button>
+           <button id="rl" class="output" disabled value="round-result">Round's Left</button>
+           <button id="up" class="output" disabled value="user-points">User Score</button>
+           <button id="cp" class="output" disabled value="computer-points">Computer Score</button>
+           <button id="gr" class="output" disabled value="game-result">Game Result</button>
+
+        </div>
+
+    </div>
+</body>
+<script src="script.js" type="text/javascript"></script>
+</html>
